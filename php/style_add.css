@@ -1,0 +1,133 @@
+/* CSS Document */
+body { margin:10px; padding:0px; }
+body, table {
+	font-family: "Tahoma";
+	font-size:12px;
+	font-style:normal;
+	color:#333333;
+}
+a { color:#06C; text-decoration:none; cursor:pointer; }
+a:hover { text-decoration:underline; }
+
+h3 {
+	margin:20px 0 5px 0;
+	padding:0 0 4px 10px;
+	border-bottom:#CCC solid 1px;
+}
+#show_ans {
+	border:none;
+	color:#FFF;
+	width:72px;
+	height:30px;
+	margin:0px;
+	padding:0px;
+	cursor:pointer; 
+}
+input[type="text"] {
+	margin:0px;
+	padding:0px;
+}
+input[type="button"].show { background:url(images/answer_show.jpg) -72px 0 no-repeat; }
+input[type="button"].hide { background:url(images/answer_show.jpg) 0 0 no-repeat; }
+
+#exam_save a {
+	color:#C00;
+	cursor:pointer;	
+}
+.answer {
+	text-align:left;
+}
+.question {
+	text-align:right;
+	width:630px;
+	height:135px;
+	border:#999 solid 2px;
+	margin:5px;
+	padding:5px;
+}
+.quest_text {
+	text-align:left;
+	width:605px;
+	border:none;
+	border-bottom:#999 solid 1px;
+	padding-bottom:5px !important;
+	margin-bottom:10px !important;
+}
+.quest_text:focus {
+	background-color:#F7F7F7;	
+}
+
+.ans_text:focus {
+	background-color:#FAFAFA;	
+}
+.ans_text {
+	text-align:left;
+	width:350px;
+	border:none;
+	border-left:#999 solid 4px;
+	padding:3px !important;
+	margin-bottom:3px !important;
+}
+.del_quest:hover {
+	color:#F00;
+	cursor:pointer;
+}
+#time_clock {
+	font-size:12px !important;
+	font-style:normal !important;
+	font-weight:normal !important;
+}
+
+.exam_wait {
+	margin:40px 0 10px 0;
+	padding:10px;	
+	font-size:22px;
+	font-weight:bold;
+	color:#8c2d2d;
+	background-color:#f6c9c9;
+	border-top:#e69090 solid 2px;
+	border-bottom:#e69090 solid 2px;
+}
+
+#exam_ready {
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:60px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.btn_answer, .btn_answered, .user_answered {
+	font-size:12px;
+	padding:5px 10px 5px 10px;
+	margin:3px;
+	cursor:pointer;
+	height:30px;
+}
+.btn_answer {
+	border:none;
+	border-left:#666 solid 5px !important;
+	background-color:#FFF;
+}
+.btn_answer:hover {
+	border:none;
+	border-left:#666 solid 5px !important;
+	background-color:#0095e7;
+}
+.btn_answered, .user_answered {
+	cursor:default;
+}
+.btn_answered {
+	border:none;
+	border-left:#FFF solid 5px !important;	
+	background-color:#FFF;
+}
+.user_answered {
+	font-weight:bold;
+	margin-left:6px;
+	color:#000;
+}
+.exam_answer {
+	height:160px;	
+}
+
+
