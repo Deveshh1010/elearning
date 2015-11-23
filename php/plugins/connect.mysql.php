@@ -8,8 +8,8 @@ class SyncDatabase
 	{
 		//$hostname = 'aotkung.no-ip.info:3306';
 		$hostname = 'localhost';
-		$username = 'root';
-		$password = '123';
+		$username = 'vhost';
+		$password = '123456';
 		$database = 'e-learning';
 		try {
 			$this->dbConnect = @mysql_connect($hostname, $username, $password);
